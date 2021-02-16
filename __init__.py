@@ -10,6 +10,7 @@ __docformat__ = 'restructuredtext en'
 class StandardEbooksStore(StoreBase):
     name = 'Standard Ebooks'
     version = (1, 0, 0)
+    minimum_calibre_version = (5, 0, 1)
     description = 'Free and liberated ebooks, carefully produced for the true book lover.'
     author = 'Anant Ahuja'
     actual_plugin = 'calibre_plugins.store_standardebooks.standardebooks:StandardEbooksStore'
